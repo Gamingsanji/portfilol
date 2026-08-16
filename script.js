@@ -34,20 +34,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Parses one line of my-videos.txt: "videos/anime/clip.mp4 | description"
   function parseVideoLine(line) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith("#")) return null;
-    const [rawPath, rawDesc] = trimmed.split("|");
-    const video = rawPath.trim();
-    if (!video) return null;
+  const trimmed = line.trim();
+  if (!trimmed || trimmed.startsWith("#")) return null;
+  const parts = trimmed.split("|").map((p) => p.trim());
+
+  let category, video, title, rawDesc;
+
+  if (parts.length >= 4) {
+    [category, video, title, rawDesc] = parts;
+  } else if (parts.length === 3) {
+    [category, video, rawDesc] = parts;
+  } else {
+    [video, rawDesc] = parts;
     const segments = video.split("/");
-    const category = segments.length > 1 ? segments[1] : "random";
-    return {
-      video,
-      category,
-      label: CATEGORY_LABELS[category] || "Edit",
-      title: titleFromFilename(video),
-      desc: rawDesc && rawDesc.trim() ? rawDesc.trim() : "A premium edit by Karan.",
-    };
+    category = segments.length > 1 ? segments[1] : "random";
+  }
+
+  if (!video) return null;
+  category = (category || "random").toLowerCase();
+
+  return {
+    video,
+    category,
+    label: CATEGORY_LABELS[category] || "Edit",
+    title: title && title.trim() ? title.trim() : titleFromFilename(video),
+    desc: rawDesc && rawDesc.trim() ? rawDesc.trim() : "A premium edit by Karan.",
+  };
   }
 
   // A tiny built-in fallback so the page still shows something if
