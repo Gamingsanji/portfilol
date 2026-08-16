@@ -39,8 +39,8 @@
 videos/anime/shadow-realm-amv.mp4 | Beat-synced action montage with impact-frame transitions.
 videos/anime/isekai-highlights.mp4 | Color-graded arc recap built for maximum hype.
 
-videos/facecam/gaming-rage-reel.mp4 | Reactive zooms synced to cam and gameplay audio.
-videos/facecam/irl-vlog-cut.mp4 | Clean pacing with punch-ins and dynamic captions.
+facecam | https://files.catbox.moe/YOUR-LINK.mp4 | Meri Face Cam Edit | Reactive zooms synced to cam and gameplay audio
+
 
 videos/meme/office-chaos.mp4 | Timed comedic beats with layered sound design.
 videos/meme/cursed-compilation.mp4 | Fast-cut meme montage built for replay value.
