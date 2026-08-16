@@ -36,20 +36,27 @@
 #   • Video file size doesn't matter — big or small, it loads lazily.
 # ==========================================================================
 
-videos/anime/shadow-realm-amv.mp4 | Beat-synced action montage with impact-frame transitions.
-videos/anime/isekai-highlights.mp4 | Color-graded arc recap built for maximum hype.
+facecam | https://files.catbox.moe/dw72j4.mp4 | Face Cam Edit 
+facecam | https://files.catbox.moe/ox01dt.mp4 | Face Cam Edit 
+facecam | https://files.catbox.moe/3d5z6g.mp4 | Face Cam Edit 
 
-facecam | https://files.catbox.moe/dw72j4.mp4 | Face Cam Edit | Reactive zooms synced to cam and gameplay audio.
-facecam | https://files.catbox.moe/ox01dt.mp4 | Face Cam Edit | Reactive zooms synced to cam and gameplay audio.
+typography | https://files.catbox.moe/he6ovr.mp4 | Typography Edit 1 
+typography | https://files.catbox.moe/po9dqh.mp4 | Typography Edit 2 
+typography | https://files.catbox.moe/31wgpd.mp4 | Typography Edit 3
 
-videos/meme/office-chaos.mp4 | Timed comedic beats with layered sound design.
-videos/meme/cursed-compilation.mp4 | Fast-cut meme montage built for replay value.
+anime | https://files.catbox.moe/pu2mto.mp4 | Anime Edit 1 
+anime | https://files.catbox.moe/0l27w2.mp4 | Anime Edit 2 
+anime | https://files.catbox.moe/lxrj5y.mp4 | Anime Edit 3 
 
-videos/podcast/the-grind-podcast-ep-12.mp4 | Multi-cam podcast edit with highlight-clip cutdown.
-videos/podcast/founders-talk-highlights.mp4 | Clean audio and B-roll driven long-form edit.
+podcast | https://files.catbox.moe/lhwh31.mp4 | Podcast 
 
-videos/random/street-story.mp4 | Cinematic B-roll storytelling with ambient grade.
-videos/random/travel-diaries-vol-3.mp4 | Mixed-format travel montage, color and sound designed.
+meme | https://files.catbox.moe/qtfldp.mp4 | Funny Edit 1 
+meme | https://files.catbox.moe/yj17bx.mp4 | Funny Edit 2 
+meme | https://files.catbox.moe/bqhmx5.mp4 | Funny Edit 3 
+meme | https://files.catbox.moe/0c4gc2.mp4 | Funny Edit 4 
 
-videos/typography/motivation-kinetic-type.mp4 | Kinetic type animation synced to a spoken-word script.
-videos/typography/brand-manifesto.mp4 | On-brand animated typography for a product launch.
+random | https://files.catbox.moe/xwltfz.mp4 | Random Edit 1 
+random | https://files.catbox.moe/vb57xo.mp4 | Random Edit 2 
+random | https://files.catbox.moe/6gq6un.mp4 | Random Edit 3 
+random | https://files.catbox.moe/ccw0od.mp4 | Random Edit 4 
+random | https://files.catbox.moe/eqhoig.mp4 | Random Edit 5 
