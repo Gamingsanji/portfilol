@@ -54,12 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // my-videos.txt can't be fetched (e.g. previewing by double-clicking
   // index.html directly instead of via a live/hosted site).
   const FALLBACK_PROJECTS = [
-    { title: "Shadow Realm AMV", category: "anime", label: "Anime Edit", desc: "Beat-synced action montage with impact-frame transitions.", video: "videos/anime/shadow-realm-amv.mp4" },
-    { title: "Gaming Rage Reel", category: "facecam", label: "Face Cam Edit", desc: "Reactive zooms synced to cam and gameplay audio.", video: "videos/facecam/gaming-rage-reel.mp4" },
-    { title: "Office Chaos", category: "meme", label: "Funny Meme", desc: "Timed comedic beats with layered sound design.", video: "videos/meme/office-chaos.mp4" },
-    { title: "The Grind Podcast Ep. 12", category: "podcast", label: "Podcast", desc: "Multi-cam podcast edit with highlight-clip cutdown.", video: "videos/podcast/the-grind-podcast-ep-12.mp4" },
-    { title: "Street Story", category: "random", label: "Random Edit", desc: "Cinematic B-roll storytelling with ambient grade.", video: "videos/random/street-story.mp4" },
-    { title: "Motivation Kinetic Type", category: "typography", label: "Typography", desc: "Kinetic type animation synced to a spoken-word script.", video: "videos/typography/motivation-kinetic-type.mp4" },
+    { title: "anime edit", category: "anime", label: "Anime Edit", desc: "Beat-synced action montage with impact-frame transitions.", video: "videos/anime/shadow-realm-amv.mp4" },
+    { title: "amime edit", category: "facecam", label: "Face Cam Edit", desc: "Reactive zooms synced to cam and gameplay audio.", video: "videos/facecam/gaming-rage-reel.mp4" },
+    { title: "funny edit", category: "meme", label: "Funny Meme", desc: "Timed comedic beats with layered sound design.", video: "videos/meme/office-chaos.mp4" },
+    { title: "podcast", category: "podcast", label: "Podcast", desc: "Multi-cam podcast edit with highlight-clip cutdown.", video: "videos/podcast/the-podcast.mp4" },
+    { title: "random edit", category: "random", label: "Random Edit", desc: "Cinematic B-roll storytelling with ambient grade.", video: "videos/random/street-story.mp4" },
+    { title: "typography", category: "typography", label: "Typography", desc: "Kinetic type animation synced to a spoken-word script.", video: "videos/typography/motivation-kinetic-type.mp4" },
   ];
 
   async function loadProjects() {
