@@ -36,27 +36,27 @@
 #   • Video file size doesn't matter — big or small, it loads lazily.
 # ==========================================================================
 
-facecam | https://files.catbox.moe/dw72j4.mp4 | Face Cam Edit 
-facecam | https://files.catbox.moe/ox01dt.mp4 | Face Cam Edit 
-facecam | https://files.catbox.moe/3d5z6g.mp4 | Face Cam Edit 
+facecam | https://files.catbox.moe/dw72j4.mp4 | Face Cam Edit | 1 
+facecam | https://files.catbox.moe/ox01dt.mp4 | Face Cam Edit | 2 
+facecam | https://files.catbox.moe/3d5z6g.mp4 | Face Cam Edit | 3 
 
-typography | https://files.catbox.moe/he6ovr.mp4 | Typography Edit 1 
-typography | https://files.catbox.moe/po9dqh.mp4 | Typography Edit 2 
-typography | https://files.catbox.moe/31wgpd.mp4 | Typography Edit 3
+typography | https://files.catbox.moe/he6ovr.mp4 | Typography Edit | 1 
+typography | https://files.catbox.moe/po9dqh.mp4 | Typography Edit | 2 
+typography | https://files.catbox.moe/31wgpd.mp4 | Typography Edit | 3
 
-anime | https://files.catbox.moe/pu2mto.mp4 | Anime Edit 1 
-anime | https://files.catbox.moe/0l27w2.mp4 | Anime Edit 2 
-anime | https://files.catbox.moe/lxrj5y.mp4 | Anime Edit 3 
+anime | https://files.catbox.moe/pu2mto.mp4 | Anime Edit | 1 
+anime | https://files.catbox.moe/0l27w2.mp4 | Anime Edit | 2 
+anime | https://files.catbox.moe/lxrj5y.mp4 | Anime Edit | 3 
 
 podcast | https://files.catbox.moe/lhwh31.mp4 | Podcast 
 
-meme | https://files.catbox.moe/qtfldp.mp4 | Funny Edit 1 
-meme | https://files.catbox.moe/yj17bx.mp4 | Funny Edit 2 
-meme | https://files.catbox.moe/bqhmx5.mp4 | Funny Edit 3 
-meme | https://files.catbox.moe/0c4gc2.mp4 | Funny Edit 4 
+meme | https://files.catbox.moe/qtfldp.mp4 | Funny Edit | 1 
+meme | https://files.catbox.moe/yj17bx.mp4 | Funny Edit | 2 
+meme | https://files.catbox.moe/bqhmx5.mp4 | Funny Edit | 3 
+meme | https://files.catbox.moe/0c4gc2.mp4 | Funny Edit | 4 
 
-random | https://files.catbox.moe/xwltfz.mp4 | Random Edit 1 
-random | https://files.catbox.moe/vb57xo.mp4 | Random Edit 2 
-random | https://files.catbox.moe/6gq6un.mp4 | Random Edit 3 
-random | https://files.catbox.moe/ccw0od.mp4 | Random Edit 4 
-random | https://files.catbox.moe/eqhoig.mp4 | Random Edit 5 
+random | https://files.catbox.moe/xwltfz.mp4 | Random Edit | 1 
+random | https://files.catbox.moe/vb57xo.mp4 | Random Edit | 2 
+random | https://files.catbox.moe/6gq6un.mp4 | Random Edit | 3 
+random | https://files.catbox.moe/ccw0od.mp4 | Random Edit | 4 
+random | https://files.catbox.moe/eqhoig.mp4 | Random Edit | 5 
