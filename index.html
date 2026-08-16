@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karan — Video Editor</title>
+  <meta name="description" content="Karan is a professional video editor specializing in short-form content, face cam edits, anime edits, meme edits, podcast editing and typography — turning raw footage into viral stories." />
+  <meta name="keywords" content="video editor, short form editing, face cam editing, anime editing, podcast editing, typography editing, Karan" />
+  <meta name="author" content="Karan" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Karan — Professional Video Editor" />
+  <meta property="og:description" content="Turning raw footage into viral stories." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%238B5CF6'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle' fill='%23050505' font-family='sans-serif' font-weight='700'%3EK%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ LOADER ============ -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-mark">K</span>
+      <div class="loader-bar"><span></span></div>
+      <span class="loader-pct" id="loaderPct">0%</span>
+    </div>
+  </div>
+
+  <!-- ============ CURSOR GLOW ============ -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <a href="#top" class="nav-logo">Karan<span class="dot">.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link nav-cta magnetic">Hire Me</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <canvas class="particles" id="particles"></canvas>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+    <div class="hero-inner">
+      <p class="reveal-line eyebrow"><span class="eyebrow-dot"></span>REC · AVAILABLE FOR PROJECTS</p>
+
+      <h1 class="hero-name">
+        <span class="reveal-line">Karan</span>
+      </h1>
+
+      <p class="hero-title reveal-line">Professional Video Editor</p>
+
+      <h2 class="hero-headline">
+        <span class="reveal-line">Turning Raw Footage</span>
+        <span class="reveal-line">Into <em>Viral Stories.</em></span>
+      </h2>
+
+      <p class="hero-intro reveal-line">
+        Hi, I'm Karan — a passionate video editor specializing in short-form content, face cam edits, anime edits, funny meme edits, podcast editing and typography. I transform raw footage into engaging, cinematic and attention-grabbing videos that leave a lasting impression.
+      </p>
+
+      <div class="hero-actions reveal-line">
+        <a href="#portfolio" class="btn btn-primary magnetic">
+          <span>View Portfolio</span>
+        </a>
+        <a href="#contact" class="btn btn-ghost magnetic">
+          <span>Hire Me</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Signature element: cinematic timeline scrubber -->
+    <div class="hero-timeline" aria-hidden="true">
+      <div class="timeline-track">
+        <div class="timeline-waveform" id="timelineWave"></div>
+        <div class="timeline-playhead"></div>
+      </div>
+      <div class="timeline-meta">
+        <span>00:00:00:00</span>
+        <span class="timeline-label">KARAN_MASTER_TIMELINE.PREMIERE</span>
+        <span>00:04:12:18</span>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-cue-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-inner about-inner">
+      <div class="about-copy">
+        <p class="eyebrow reveal">SC. 01 — ABOUT</p>
+        <h2 class="section-title reveal">Hi, I'm Karan.</h2>
+        <p class="about-lead reveal">
+          I'm a passionate video editor who focuses on creating clean, engaging and visually stunning edits.
+        </p>
+        <p class="about-body reveal">
+          From short-form content to anime edits, podcasts, face-cam videos and meme edits, I love transforming raw footage into content that captures attention and keeps viewers watching.
+        </p>
+        <p class="about-body reveal">
+          My editing style combines storytelling, creativity and modern aesthetics to deliver premium-quality results — frame by frame, cut by cut.
+        </p>
+
+        <div class="about-stats reveal">
+          <div class="stat">
+            <span class="stat-num" data-count="120">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="6">0</span>
+            <span class="stat-label">Editing Disciplines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="48">0</span><span class="stat-suffix">h</span>
+            <span class="stat-label">Avg. Turnaround</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual reveal">
+        <div class="about-frame">
+          <div class="about-frame-glow"></div>
+          <div class="about-frame-grid"></div>
+          <span class="about-frame-tag">FCPX / PR / AE</span>
+          <span class="about-frame-corner tl"></span>
+          <span class="about-frame-corner br"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow reveal center">SC. 02 — CRAFT</p>
+      <h2 class="section-title center reveal">What I Edit</h2>
+      <p class="section-sub center reveal">Six disciplines, one obsession: keeping people watching until the very last frame.</p>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal" style="--i:0">
+          <div class="skill-icon">✂️</div>
+          <h3>Short Form Editing</h3>
+          <p>Fast, punchy cuts built for Reels, Shorts and TikTok — engineered to hook in the first second.</p>
+        </article>
+        <article class="skill-card reveal" style="--i:1">
+          <div class="skill-icon">🎙️</div>
+          <h3>Face Cam Editing</h3>
+          <p>Clean cam-and-gameplay sync with reactive zooms, cuts and captions that keep energy high.</p>
+        </article>
+        <article class="skill-card reveal" style="--i:2">
+          <div class="skill-icon">😂</div>
+          <h3>Funny Meme Editing</h3>
+          <p>Perfectly-timed comedic edits with sound design and visual gags that actually land.</p>
+        </article>
+        <article class="skill-card reveal" style="--i:3">
+          <div class="skill-icon">⛩️</div>
+          <h3>Anime Editing</h3>
+          <p>Beat-synced AMV-style edits with dynamic transitions, color grading and impact frames.</p>
+        </article>
+        <article class="skill-card reveal" style="--i:4">
+          <div class="skill-icon">🎧</div>
+          <h3>Podcast Editing</h3>
+          <p>Multi-cam podcast cuts, clean audio, B-roll and highlight clips ready for every platform.</p>
+        </article>
+        <article class="skill-card reveal" style="--i:5">
+          <div class="skill-icon">🔤</div>
+          <h3>Typography</h3>
+          <p>Kinetic type animation that turns spoken words into a visual, on-brand experience.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-inner">
+      <p class="eyebrow reveal center">SC. 03 — SELECTED WORK</p>
+      <h2 class="section-title center reveal">Portfolio</h2>
+      <p class="section-sub center reveal">A curated reel across every discipline I work in. Tap play to preview.</p>
+
+      <div class="filter-bar reveal" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="anime">Anime Edit</button>
+        <button class="filter-btn" data-filter="facecam">Face Cam</button>
+        <button class="filter-btn" data-filter="meme">Funny Meme</button>
+        <button class="filter-btn" data-filter="podcast">Podcast</button>
+        <button class="filter-btn" data-filter="random">Random Edit</button>
+        <button class="filter-btn" data-filter="typography">Typography</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Cards are generated by script.js from the PROJECTS array -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process" id="process">
+    <div class="section-inner">
+      <p class="eyebrow reveal center">SC. 04 — WORKFLOW</p>
+      <h2 class="section-title center reveal">My Process</h2>
+      <p class="section-sub center reveal">Four cuts from raw footage to final delivery.</p>
+
+      <div class="timeline-process">
+        <div class="tp-line"><span class="tp-line-fill" id="tpLineFill"></span></div>
+
+        <div class="tp-step reveal">
+          <span class="tp-code">00:00</span>
+          <div class="tp-dot"></div>
+          <h3>Discovery</h3>
+          <p>We talk goals, platform and style — I learn your voice before I touch a single clip.</p>
+        </div>
+        <div class="tp-step reveal">
+          <span class="tp-code">00:01</span>
+          <div class="tp-dot"></div>
+          <h3>Editing</h3>
+          <p>Footage is cut, graded, scored and paced for maximum retention and impact.</p>
+        </div>
+        <div class="tp-step reveal">
+          <span class="tp-code">00:02</span>
+          <div class="tp-dot"></div>
+          <h3>Revision</h3>
+          <p>You review the cut and I refine it — timing, tone and detail until it feels right.</p>
+        </div>
+        <div class="tp-step reveal">
+          <span class="tp-code">00:03</span>
+          <div class="tp-dot"></div>
+          <h3>Delivery</h3>
+          <p>Final export in the format your platform needs, ready to publish and perform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="section-inner faq-inner">
+      <p class="eyebrow reveal center">SC. 05 — FAQ</p>
+      <h2 class="section-title center reveal">Questions, Answered</h2>
+
+      <div class="accordion reveal" id="accordion">
+        <div class="accordion-item">
+          <button class="accordion-head">
+            <span>What's your typical turnaround time?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Most short-form edits are delivered within 24–48 hours. Longer podcast or anime edits typically take 3–5 days, depending on length and complexity.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-head">
+            <span>How many revisions do I get?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Every project includes two rounds of revisions to fine-tune pacing, captions and color before final delivery. Additional rounds can be arranged.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-head">
+            <span>What file formats do you deliver?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>You'll receive platform-ready MP4 exports in the correct aspect ratio — vertical for Reels/Shorts/TikTok, or horizontal for YouTube and podcasts.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-head">
+            <span>Do I need to send raw footage?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Yes — send raw clips, audio and any brand assets via Google Drive or WeTransfer. The cleaner the footage, the sharper the final edit.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-head">
+            <span>How do we get started?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Reach out on WhatsApp or email with your project details. I'll reply with availability, pricing and next steps within a day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="contact-glow"></div>
+    <div class="section-inner contact-inner">
+      <p class="eyebrow reveal center">SC. 06 — LET'S TALK</p>
+      <h2 class="section-title center reveal">Let's Create Something<br /><em>Unforgettable.</em></h2>
+      <p class="section-sub center reveal">Have a project in mind? Pick a channel below and let's start the conversation.</p>
+
+      <div class="contact-grid reveal">
+        <a href="https://wa.me/918384029202" target="_blank" rel="noopener noreferrer" class="contact-card magnetic" id="whatsappLink">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.05c-.24.68-1.4 1.3-1.93 1.36-.5.06-1.02.24-3.4-.7-2.87-1.14-4.72-4.06-4.86-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35h.55c.18 0 .42-.07.65.5.24.58.8 2 .87 2.15.07.14.11.32.02.51-.09.19-.14.31-.28.48-.14.16-.29.36-.42.49-.14.14-.28.29-.12.57.16.28.71 1.18 1.53 1.91 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.6-.07.16-.19.68-.8.87-1.07.18-.28.36-.23.6-.14.24.09 1.55.73 1.81.87.26.14.43.2.5.32.06.12.06.68-.18 1.36Z"/></svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>+91 83840 29202</p>
+          <span class="contact-arrow">↗</span>
+        </a>
+
+        <a href="mailto:gamingsanji83@gmail.com" class="contact-card magnetic" id="emailLink">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="26" height="26"><path d="M3 6.5 12 13l9-6.5"/><rect x="3" y="4.5" width="18" height="15" rx="2"/></svg>
+          </div>
+          <h3>Email</h3>
+          <p>gamingsanji83@gmail.com</p>
+          <span class="contact-arrow">↗</span>
+        </a>
+
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-card magnetic" id="instagramLink">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="26" height="26"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </div>
+          <h3>Instagram</h3>
+          <p>@karan.edits</p>
+          <span class="contact-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="section-inner footer-inner">
+      <a href="#top" class="footer-logo">Karan<span class="dot">.</span></a>
+      <p class="footer-line">Turning raw footage into viral stories.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Karan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <!-- ============ VIDEO LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+      <video class="lightbox-video" id="lightboxVideo" controls playsinline></video>
+      <div class="lightbox-caption">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

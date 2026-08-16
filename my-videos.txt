@@ -1,0 +1,55 @@
+# ==========================================================================
+# MY-VIDEOS.TXT
+# 👉 THIS is the ONLY file you need to edit to add your videos —
+#    and you can do it 100% from your PHONE. No code, no coding app.
+#
+# HOW TO ADD A VIDEO FROM YOUR PHONE:
+# --------------------------------------------------------------------------
+# STEP 1 — Rename your video on your phone (in your gallery/files app)
+#          to something simple, using - or _ instead of spaces, e.g:
+#              shadow-realm-amv.mp4
+#
+# STEP 2 — Open your GitHub repo in your phone's browser (github.com),
+#          go into the correct "videos/<category>" folder, tap the
+#          "+" / "Add file" button, then "Upload files", and pick your
+#          video from your phone gallery.
+#
+# STEP 3 — Come back to THIS file (my-videos.txt) in the browser, tap
+#          the pencil ✏️ (edit) icon, and add ONE new line at the
+#          bottom like this:
+#
+#              videos/anime/shadow-realm-amv.mp4 | A short description here
+#
+#          (the part before " | " is the file path you just uploaded,
+#           the part after is just a one-line description — optional)
+#
+# STEP 4 — Tap "Commit changes". If your site is connected to Vercel,
+#          it updates itself automatically within a minute. Refresh
+#          the site and your new video card is there.
+#
+# NOTES:
+#   • The category (anime / facecam / meme / podcast / random / typography)
+#     is picked up automatically from the folder the video is in.
+#   • The project title on the card is generated automatically from the
+#     file name (dashes/underscores become spaces, each word capitalized).
+#   • Lines starting with # are just notes and are ignored.
+#   • Video file size doesn't matter — big or small, it loads lazily.
+# ==========================================================================
+
+videos/anime/shadow-realm-amv.mp4 | Beat-synced action montage with impact-frame transitions.
+videos/anime/isekai-highlights.mp4 | Color-graded arc recap built for maximum hype.
+
+videos/facecam/gaming-rage-reel.mp4 | Reactive zooms synced to cam and gameplay audio.
+videos/facecam/irl-vlog-cut.mp4 | Clean pacing with punch-ins and dynamic captions.
+
+videos/meme/office-chaos.mp4 | Timed comedic beats with layered sound design.
+videos/meme/cursed-compilation.mp4 | Fast-cut meme montage built for replay value.
+
+videos/podcast/the-grind-podcast-ep-12.mp4 | Multi-cam podcast edit with highlight-clip cutdown.
+videos/podcast/founders-talk-highlights.mp4 | Clean audio and B-roll driven long-form edit.
+
+videos/random/street-story.mp4 | Cinematic B-roll storytelling with ambient grade.
+videos/random/travel-diaries-vol-3.mp4 | Mixed-format travel montage, color and sound designed.
+
+videos/typography/motivation-kinetic-type.mp4 | Kinetic type animation synced to a spoken-word script.
+videos/typography/brand-manifesto.mp4 | On-brand animated typography for a product launch.
