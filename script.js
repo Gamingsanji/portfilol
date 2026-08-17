@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function initParticles() {
-    const count = window.innerWidth < 480 ? 18 : window.innerWidth < 768 ? 30 : 80;
+    const count = window.innerWidth < 480 ? 18 : window.innerWidth < 768 ? 30 : window.innerWidth < 1400 ? 80 : 130;
     particles = Array.from({ length: count }, () => ({
       x: Math.random() * canvas.offsetWidth,
       y: Math.random() * canvas.offsetHeight,
