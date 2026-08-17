@@ -546,7 +546,11 @@ section { position: relative; padding: 140px 0; }
   transform: scale(0.92); transition: transform 0.4s var(--ease);
 }
 .lightbox.open .lightbox-inner { transform: scale(1); }
-.lightbox-video { width: 100%; max-height: 60vh; background: #000; }
+.lightbox-video {
+  display: block; width: auto; height: auto;
+  max-width: 100%; max-height: 75vh;
+  margin: 0 auto; background: #000; object-fit: contain;
+}
 .lightbox-caption { padding: 22px 26px; }
 .lightbox-caption h3 { font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 6px; }
 .lightbox-caption p { color: var(--muted); font-size: 0.9rem; }
