@@ -726,3 +726,22 @@ section { position: relative; padding: 140px 0; }
 [data-touch] .back-to-top {
   min-height: 44px;
 }
+
+.viewfinder { position: absolute; inset: 28px; z-index: 1; pointer-events: none; }
+.vf-corner { position: absolute; width: 26px; height: 26px; border-color: rgba(255,255,255,0.22); }
+.vf-tl { top: 0; left: 0; border-top: 1.5px solid; border-left: 1.5px solid; }
+.vf-tr { top: 0; right: 0; border-top: 1.5px solid; border-right: 1.5px solid; }
+.vf-bl { bottom: 0; left: 0; border-bottom: 1.5px solid; border-left: 1.5px solid; }
+.vf-br { bottom: 0; right: 0; border-bottom: 1.5px solid; border-right: 1.5px solid; }
+.vf-label {
+  position: absolute; font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.15em; color: var(--muted-2); text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+.vf-label-left { top: 50%; left: 0; transform: translateY(-50%) rotate(180deg); }
+.vf-label-right { top: 50%; right: 0; transform: translateY(-50%); }
+
+@media (max-width: 640px) {
+  .viewfinder { inset: 16px; }
+  .vf-label { display: none; }
+}
