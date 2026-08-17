@@ -377,10 +377,11 @@ section { position: relative; padding: 140px 0; }
 
 /* ============ SCROLL REVEAL (generic) ============ */
 .reveal {
-  opacity: 0; transform: translateY(34px);
-  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+  opacity: 0; transform: translate3d(0, 34px, 0);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform, opacity;
 }
-.reveal.in-view { opacity: 1; transform: translateY(0); }
+.reveal.in-view { opacity: 1; transform: translate3d(0,0,0); will-change: auto; }
 
 /* ============ ABOUT ============ */
 .about-inner {
