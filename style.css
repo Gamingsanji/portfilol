@@ -400,7 +400,7 @@ section { position: relative; padding: 140px 0; }
 
 .about-visual { display: flex; justify-content: center; }
 .about-frame {
-  position: relative; width: 100%; max-width: 380px; aspect-ratio: 4/5;
+  position: relative; width: 100%; max-width: 380px; aspect-ratio: 1/1;
   border-radius: 28px; border: 1px solid var(--border-strong);
   background: linear-gradient(160deg, rgba(139,92,246,0.14), rgba(255,255,255,0.02));
   overflow: hidden;
