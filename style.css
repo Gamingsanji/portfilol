@@ -621,7 +621,7 @@ section { position: relative; padding: 140px 0; }
 .accordion-body p { color: var(--muted); font-size: 0.93rem; line-height: 1.7; }
 
 /* ============ CONTACT ============ */
-.contact { text-align: center; }
+.contact { text-align: center; overflow: hidden; }
 .contact-glow {
   position: absolute; top: 0; left: 50%; transform: translateX(-50%);
   width: 700px; height: 500px; border-radius: 50%;
